@@ -1,0 +1,4 @@
+2026-06-26 10:11:41.959459: Error on line 2 of the file. Data has 5 items but should have 6.
+2026-06-26 10:11:41.959459: Error on line 3 of the file: credit_hours or gpa have incorrect format 
+2026-06-26 10:11:45.881916: Error on line 2 of the file. Data has 5 items but should have 6.
+2026-06-26 10:11:45.881916: Error on line 3 of the file: credit_hours or gpa have incorrect format 

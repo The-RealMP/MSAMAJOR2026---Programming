@@ -54,6 +54,11 @@ def major_post():
     #get the form data: the chose major from the select menu
     major = request.form.get('major')
 
+    #if major input display error messsage and reload page 
+    if major == "":
+        flash("ERROR: You must select a major")
+        return redirect(url_for('majors_get'))
+
     #create a url to get student from that major 
     url = f"http://127.0.0.1:5000/api/majors/{major}"
 
